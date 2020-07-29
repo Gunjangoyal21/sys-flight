@@ -1,0 +1,14 @@
+#%RAML 1.0
+baseUri: https://anypoint.mulesoft.com/mocking/api/v1/links/82463127-5594-4865-9613-c2069bc6dd7c/ # 
+title: Sys-flight
+/flight:
+  get:
+    queryParameters:
+      destination:
+        type: string
+        required: true
+    responses:
+      200:
+        body:
+          application/xml:
+            
