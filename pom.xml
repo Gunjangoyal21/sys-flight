@@ -29,7 +29,7 @@
 				<configuration>
 					<cloudHubDeployment>
 						<uri>https://anypoint.mulesoft.com</uri>
-						<muleVersion>4.0.0</muleVersion>
+						<muleVersion>4.2.0</muleVersion>
 						<!-- Deploy User Parameter -->
 						<username>${anypoint.username}</username>
 						<password>${anypoint.password}</password>
