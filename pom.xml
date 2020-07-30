@@ -28,18 +28,16 @@
 				<extensions>true</extensions>
 				<configuration>
 					<cloudHubDeployment>
-						<uri>https://anypoint.mulesoft.com</uri>
-						<muleVersion>4.2.0</muleVersion>
-						<!-- Deploy User Parameter -->
-						<username>${anypoint.username}</username>
-						<password>${anypoint.password}</password>
-						<!-- Environment Parameter -->
-						<environment>${cloudhub.environment}</environment>
-						<applicationName>${cloudhub.app}</applicationName>
-						<businessGroup>${cloudhub.bg}</businessGroup>
-						<workerType>${cloudhub.worker}</workerType>
-						<workers>1</workers>
-					</cloudHubDeployment>
+                    <uri>https://anypoint.mulesoft.com</uri>
+                    <muleVersion>4.2.0</muleVersion>
+                    <username>GunjanGoyal99</username>
+                    <password>Gunjan@7869..</password>
+                    <applicationName>api</applicationName>
+                    <environment>Sandbox</environment>
+                    <workers>1</workers>
+                    <workerType>MICRO</workerType>
+                    <objectStoreV2>true</objectStoreV2>
+                   </cloudHubDeployment>
 				</configuration>
 			</plugin>
 		</plugins>
