@@ -23,7 +23,7 @@
 			<plugin>
 				<groupId>org.mule.tools.maven</groupId>
 				<artifactId>mule-maven-plugin</artifactId>
-				<version>2.3.2</version>
+				<version>3.2.7</version>
 				<extensions>true</extensions>
 			</plugin>
 		<plugin>
@@ -101,9 +101,14 @@
 	</repositories>
 	<pluginRepositories>
 		<pluginRepository>
-			<id>mule-public</id>
-			<url>https://repository.mulesoft.org/nexus/content/repositories/releases</url>
-		</pluginRepository>
+            <id>mulesoft-releases</id>
+            <name>mulesoft release repository</name>
+            <layout>default</layout>
+            <url>https://repository.mulesoft.org/releases/</url>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </pluginRepository>
 	</pluginRepositories>
 
 </project>
