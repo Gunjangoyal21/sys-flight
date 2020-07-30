@@ -23,20 +23,20 @@
 		<plugins>
 			<plugin>
 				<groupId>org.mule.tools.maven</groupId>
-				<artifactId>mule-maven-plugin</artifactId>
+				<artifactId>mule-app-maven-plugin</artifactId>
 				<version>3.2.7</version>
 				<extensions>true</extensions>
 				<configuration>
 					<cloudHubDeployment>
-                    <uri>https://anypoint.mulesoft.com</uri>
-                    <muleVersion>4.2.0</muleVersion>
-                    <username>GunjanGoyal99</username>
-                    <password>Gunjan@7869..</password>
-                    <applicationName>api</applicationName>
-                    <environment>Sandbox</environment>
-                    <workers>1</workers>
-                    <workerType>MICRO</workerType>
-                   </cloudHubDeployment>
+						<uri>https://anypoint.mulesoft.com</uri>
+						<muleVersion>4.2.0</muleVersion>
+						<username>GunjanGoyal99</username>
+						<password>Gunjan@7869..</password>
+						<applicationName>api</applicationName>
+						<environment>Sandbox</environment>
+						<workers>1</workers>
+						<workerType>MICRO</workerType>
+					</cloudHubDeployment>
 				</configuration>
 			</plugin>
 		</plugins>
