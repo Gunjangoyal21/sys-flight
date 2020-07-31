@@ -29,15 +29,14 @@
 				<configuration>
 					<cloudHubDeployment>
 						<uri>https://anypoint.mulesoft.com</uri>
-						<muleVersion>${app.runtime}</muleVersion>
+						<muleVersion>4.2.0</muleVersion>
 						<!-- Deploy User Parameter -->
-						<username>${anypoint.username}</username>
-						<password>${anypoint.password}</password>
+						<username>GunajnGoyal99</username>
+						<password>Gunjan@7869</password>
 						<!-- Environment Parameter -->
-						<environment>${cloudhub.environment}</environment>
-						<applicationName>Gunjan782</applicationName>
-						<businessGroup>${cloudhub.bg}</businessGroup>
-						<workerType>${cloudhub.worker}</workerType>
+						<environment>Sandbox</environment>
+						<applicationName>GunjanApi</applicationName>
+						<workerType>Micro</workerType>
 					</cloudHubDeployment>
 				</configuration>
 			</plugin>
